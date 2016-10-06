@@ -1,1 +1,34 @@
 
+body {
+    background-color: #9AACB8;
+}
+
+h1 {
+    color: #60412B;
+    margin-left: 20px;
+}
+p {
+   colour: #DDE2E3;
+   margin-left: 20px;
+}
+h2 {
+    color: #B37C57;
+    margin-left: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+.main {
+    width: 75%;
+    float: left;
+    padding: 15px;
+}
+#content {
+  float: right ;
+  width: 80% ;
+}
+#navbar {
+  float: right;
+  width: 20%;
+}
