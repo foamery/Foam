@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<body style="background-color:#8B4513;">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <style>
 body {
@@ -111,6 +112,6 @@ function updateGameArea() {
 
 </script>
 
-<p>Click on the blue "buttons" to make the red square move.</p>
+
 </body>
 </html>
