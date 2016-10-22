@@ -13,16 +13,12 @@ p {
 * {
     box-sizing: border-box;
 }
-.main {
-    width: 75%;
-    float: left;
-    padding: 15px;
-}
-#content {
+
+main {
   float: right ;
   width: 80% ;
 }
-#navbar {
-  float: right;
+nav {
+  float: left;
   width: 20%;
 }
