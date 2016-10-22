@@ -1,4 +1,6 @@
-
+name: ire4html
+description: html tuorials
+url: ire4html.tk
 permalink: /blog/:year/:month/:day/:title
 gems:
   - jekyll-sitemap
