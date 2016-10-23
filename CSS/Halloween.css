@@ -20,7 +20,7 @@ main {
 }
 nav {
   float: left;
-  width: 10%;
+  width: 15%;
 }
 body {
     margin: 0;
@@ -30,7 +30,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 10%;
+    width: 15%;
     background-color: #030016;
     position: fixed;
     height: 100%;
