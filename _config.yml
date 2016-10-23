@@ -4,3 +4,4 @@ url: ire4html.tk
 permalink: /blog/:year/:month/:day/:title
 gems:
   - jekyll-sitemap
+  - jekyll-feed
