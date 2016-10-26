@@ -6,4 +6,4 @@ avater: https://avatars3.githubusercontent.com/u/19869690?v=3&s=40
 gems:
   - jekyll-sitemap
   - jekyll-feed
-  
+  - jemoji
