@@ -3,5 +3,6 @@ description: html tuorials
 url: ire4html.tk
 permalink: /blog/:year/:month/:day/:title
 avater: https://avatars3.githubusercontent.com/u/19869690?v=3&s=40
+jekyll-sitemap
 gems:
   - jekyll-sitemap
