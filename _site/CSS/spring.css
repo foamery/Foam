@@ -1,0 +1,24 @@
+body {
+    background-color: #CBE32D;
+}
+
+h1 {
+    color: #005A31;
+    margin-left: 20px;
+}
+* {
+    box-sizing: border-box;
+}
+.main {
+    width: 75%;
+    float: left;
+    padding: 15px;
+}
+#content {
+  float: right ;
+  width: 80% ;
+}
+#navbar {
+  float: right;
+  width: 20%;
+}
