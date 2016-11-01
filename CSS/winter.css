@@ -15,6 +15,17 @@ h2 {
     color: #cbd5d2;
     margin-left: 20px;
 }
+main {
+  float: right ;
+  width: 83% ;
+}
+nav {
+  float: left;
+  width: 17%;
+}
+body {
+    margin: 0;
+}
 
 ul {
     list-style-type: none;
