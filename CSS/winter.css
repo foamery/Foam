@@ -8,7 +8,7 @@ h1 {
     margin-left: 20px;
 }
 p {
-   colour: #98c4c9;
+   color: #98c4c9;
    margin-left: 20px;
 }
 h2 {
@@ -16,19 +16,30 @@ h2 {
     margin-left: 20px;
 }
 
-* {
-    box-sizing: border-box;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 17%;
+    background-color: #cbd5d2;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
 }
-.main {
-    width: 75%;
-    float: left;
-    padding: 15px;
+
+li a {
+    display: block;
+    color: #98c4c9;
+    padding: 8px 16px;
+    text-decoration: none;
 }
-#content {
-  float: right ;
-  width: 80% ;
+
+li a.active {
+    background-color: #1a2944;
+    color: #98c4c9;
 }
-#navbar {
-  float: right;
-  width: 20%;
+
+li a:hover:not(.active) {
+    background-color: #1a2944
+    color: #98c4c9;
 }
