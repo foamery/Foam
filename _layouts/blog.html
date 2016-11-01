@@ -8,16 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{{ page.title }}</title>
 </head>
- <main>
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
- </main>
+{{ content }}
  <nav>
   <ul>
   <li><a href="http://ire4html.tk">Home</a></li>
