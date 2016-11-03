@@ -7,3 +7,4 @@ style: http://ire4html.tk/CSS/winter.css
 gems:
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-seo-tag
