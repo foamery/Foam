@@ -1,3 +1,7 @@
+---
+layout: posts
+title: do you want to build a website
+---
 So you want to build a website
 ==============================
 
@@ -15,5 +19,33 @@ Those accounts will be what you need to start off with.
 Github
 ===========
 
-1.go onto github and make a respretory called  username.github.io with username being your username
-2.make a index.html file at the home page and put in some basic code here is a sample
+1. go onto github and make a respretory called  username.github.io with username being your username
+
+2. make a index.html file at the home page and put in some basic code here is a sample
+
+'''
+<!doctype html>
+<html>
+<head>
+<title>My first website</title>
+</head>
+<h>Hi welcome</h>
+'''
+That was pretty much what my first index was but of course you can modified.
+You can visit your website by going to username.github.io where again the username is your user name
+That is the github side mostly done now it's time to get a domain name and set it up.
+
+1. head over to [dot.tk](http://www.dot.tk/) and register your chosen domain name 
+
+That's pretty much it since the DNS records are done on cloud flare
+
+1. Head over to [cloudflare](https://www.cloudflare.com)
+
+2. Log in and add a website use your domain the .tk one
+
+3. You will get name servers which you add on .tk
+
+4. Go back to [dot.tk](http://www.dot.tk/) and go to your website
+
+5. There wi
+
