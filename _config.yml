@@ -8,3 +8,4 @@ gems:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-avatar
