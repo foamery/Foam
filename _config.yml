@@ -1,0 +1,11 @@
+name: ire4html
+description: to be honest I think it's educational 
+url: ire4html.tk
+permalink: /blog/:year/:month/:day/:title
+avater: https://avatars3.githubusercontent.com/u/19869690?v=3&s=40
+style: http://ire4html.tk/CSS/winter.css
+gems:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-avatar
