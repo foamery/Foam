@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: gtg to work times 5
+title: work list
 ---
 Work to be done
 ==============

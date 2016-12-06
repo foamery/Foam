@@ -2,21 +2,20 @@
 <!doctype html>
 <html>
 <head>
-<link rel="alternate" type="application/rss+xml" title="Your Site RSS" href="/feed.xml" />
-<base href="ire4html.tk">
+{% feed_meta %}
 <link rel="stylesheet" type="text/css" href={{ site.style }}>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{{ page.title }}</title>
 </head>
  <main>
+{% include header.html %}
+{% include {{ site.nav }} %}
+{% avatar foamery %}
+{{ page.date | date: '%B %d, %Y' }}
 {{ content }}
+{% include footer.html %}
+{% include navscript.html %}
  </main>
- <nav>
-  <ul>
-  <li><a href="http://ire4html.tk">Home</a></li>
-   <li><a href="http://ire4html.tk/games/">Game</a></li>
-   <li><a href="www.google.com.au">Google</a></li>
-  </ul>
-    </nav>
+
 </html>
       
