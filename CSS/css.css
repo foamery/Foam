@@ -1,20 +1,20 @@
-
 body {
     height: 100%;
     width: 100% ;
-    background-color: #2da7c7;
+padding: 30px;
+    background-color: #de2e3d;
 }
 
 h1 {
-    color: #1a2944;
+    color: blue;
     margin-left: 20px;
 }
 p {
-   color: #98c4c9;
+   color: #8a943a;
    margin-left: 20px;
 }
 h2 {
-    color: #cbd5d2;
+    color: #470607;
     margin-left: 20px;
 }
 ul {
@@ -26,13 +26,13 @@ ul {
 }
 li a {
     display: block;
-    color: #98c4c9;
+    color: #653f4e;
     padding: 8px 16px;
     text-decoration: none;
 }
 a {
     display: block;
-    color: #98c4c9;
+    color: #653f4e;
     padding: 8px 16px;
     text-decoration: none;
 }
@@ -60,4 +60,21 @@ a:hover, a:active {
     background-color: red;
 }
 
-
+#snowflakeContainer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.snowflake {
+    padding-left: 15px;
+    font-family: Cambria, Georgia, serif;
+    font-size: 14px;
+    line-height: 24px;
+    position: fixed;
+    color: #FFFFFF;
+    user-select: none;
+    z-index: 1000;
+}
+.snowflake:hover {
+    cursor: default;
+}
